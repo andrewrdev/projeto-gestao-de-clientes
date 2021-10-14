@@ -1,0 +1,180 @@
+/* LOGIN PAGE ****************************************************************/
+
+.login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  width: 450px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.login-box h2 {
+  flex-grow: 1;
+  text-align: center;
+  margin: 20px 0;
+  color: #474747;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-box input[name="name"] {
+  background: url(../icons/user-solid.svg) no-repeat left center;
+  background-position: 10px center ;
+  background-size: 15px;
+  padding: 10px 40px;
+}
+
+.login-box input[name="password"] {
+  background: url(../icons/lock-solid.svg) no-repeat left center;
+  background-position: 10px center ;
+  background-size: 15px;
+  padding: 10px 40px;
+}
+
+.login-box input[type="submit"] {
+  background-color: #1877f2;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.login-errors {
+  width: 100%;
+  background-color: #f8d7da;
+  color: #881c59;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #f7c7cb;
+}
+
+/* Home **********************************************************************/
+
+.menu-top {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-top nav ul li {
+  float: left;
+}
+
+.menu-top a {
+  color: #242424;
+  display: block;
+  padding: 10px;
+}
+
+.menu-top a:hover {
+  color: #1877f2;
+}
+
+.menu-top span{
+  font-size: 1.5rem;
+  color: #474747;
+}
+
+.menu-top img {
+  width: 180px;
+}
+
+/* TABLE Clientes ************************************************************/
+
+.clientes-info {
+  margin-top: 50px;
+}
+
+.tb-clientes {
+  width: 100%;
+  min-width: 1024px;
+  background-color: white;
+  margin: 50px 0;
+}
+
+.tb-clientes thead {
+  background-color: #242424;
+  color: #ffffff;
+}
+
+.tb-clientes tbody tr:nth-child(odd) {
+  background-color: #f5f4ea;
+}
+
+.tb-clientes td {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tb-clientes a.btn-delete {
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tb-clientes a.btn-edit {
+  background-color: #ffc107;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* NOVO CLIENTE ************************************************************/
+
+.box-novo-cliente {
+  margin-top: 20px;
+}
+
+.novo-cliente .row {
+  align-items: center;
+  justify-content: center;
+}
+.box-novo-cliente {
+  background-color: #ffffff;
+  width: 800PX;
+  padding: 20px;
+  margin: 50px 0;
+}
+
+.box-novo-cliente input,
+.box-novo-cliente select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.box-novo-cliente input[type="submit"] {
+  background-color: #1877f2;
+  color: #ffffff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.customer-register-success {
+  width: 100%;
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #21913b;
+}
